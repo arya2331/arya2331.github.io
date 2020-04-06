@@ -1,0 +1,48 @@
+- title: "Home"
+  href: "/Introduction/"
+
+- title: "About"
+  href: "/about/"
+
+- title: "Condition&Treatments"
+  subcategories:
+    - subtitle: "Scoliosis"
+      subhref: "/Condition&Treatments/Scoliosis/"
+    - subtitle: "Degenerative conditions "
+      subhref: "/Condition&Treatments/degenerative_conditions/"
+    - subtitle: "Cauda equina syndrome"
+      subhref: "/People/Current/"
+    - subtitle: "Spinal injuries"
+      subhref: "/People/Alumini/"
+    - subtitle: "Metastatic spinal cord compression"
+      subhref: "/People/Alumini/"  
+    - subtitle: "Spinal infections"
+      subhref: "/People/Alumini/"     
+
+- title: "Patient Resources"
+  subcategories:
+    - subtitle: "Spinal Disorders - Anterior Cervical Discectomy and Fusion "
+      subhref: "/Patient_Resources/34c09d12-5822-4e37-a153-1bcb4b4584e2.pdf"
+    - subtitle: "Reducing risk of blood clots in hospital "
+      subhref: "/Patient_Resources/d6a8348e-f3ee-44e2-a288-ca0829855958.pdf"
+    - subtitle: "Anterior cervical discectomy and fusion (ACDF)"
+      subhref: "/Patient_Resources/1583794d-ea81-46f5-a088-b545884a51c2.pdf"
+    - subtitle: "Lumbar Discectomy "
+      subhref: "/Patient_Resources/30060f48-193c-4137-9b0b-12a0c2450698.pdf"  
+
+- title: "Research&Publications"
+  subcategories:
+    - subtitle: "Publications"
+      subhref: "/Research&Publications/publications/"
+    - subtitle: "Presentations"
+      subhref: "/Research&Publications/Presentations/"  
+
+- title: "Blog"
+  href: "/blog/"
+  
+- title: "Contact"
+  subcategories:
+    - subtitle: "NHS Practice"
+      subhref: "/Contact/NHS_contact/"
+    - subtitle: "Private Practice"
+      subhref: "/Contact/Private_contact/"

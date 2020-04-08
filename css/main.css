@@ -270,6 +270,51 @@ img {
   height: 300px;
   vertical-align: middle; }
 
+@keyframes cfFadeInOut {
+  0% {
+    opacity: 1; }
+  45% {
+    opacity: 1; }
+  55% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+#cf img {
+  position: absolute;
+  right: -400px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; }
+
+#cf {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin: 10px 10px; }
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity: 1; }
+  45% {
+    opacity: 1; }
+  55% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+#cf img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-direction: alternate; }
+
+#cj img {
+  position: relative;
+  height: 120px;
+  width: 100px;
+  margin: 0px 200px -180px 150px; }
+
 /**
  * Figures
  */

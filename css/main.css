@@ -12,7 +12,7 @@
   font-size: 20px;
   /* 		margin-top: 15px;
       line-height: 40px; */
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   margin-bottom: 0;
   float: left;
   font-weight: 500;
@@ -31,18 +31,18 @@
   color: #fff; }
 
 .site-nav ul {
-  text-align: right;
+  text-align: center;
   float: right;
   padding-top: 9px;
   font-size: 85%;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 1em;
   font-weight: 600;
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif; }
+  font-family: 'Times New Roman'; }
 
 .site-nav .menu > li {
   border-bottom: 3px solid transparent;
@@ -98,7 +98,7 @@
   top: 28px;
   min-width: 265px;
   z-index: 999;
-  font-family: Helvetica, Arial, Verdana, sans-serif; }
+  font-family: 'Times New Roman'; }
 
 .sub-menu li {
   border-bottom: 0;
@@ -292,8 +292,8 @@ img {
 
 #cf {
   position: absolute;
-  height: 300px;
-  width: 300px; }
+  height: 250px;
+  width: 250px; }
 
 @keyframes cf3FadeInOut {
   0% {

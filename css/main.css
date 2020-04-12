@@ -3,20 +3,20 @@
  */
 .site-header {
   border-top: 0px solid #424242;
-  border-bottom: 4px solid #522d80;
+  border-bottom: 4px solid #033063;
   min-height: 56px;
-  background: #522d80;
+  background: #033063;
   position: relative; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 20px;
   /* 		margin-top: 15px;
       line-height: 40px; */
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
   font-weight: 500;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Times New Roman";
   color: #ffffff; }
   .site-title, .site-title:visited {
     color: #ffffff; }
@@ -56,7 +56,7 @@
 
 .site-nav a {
   display: block;
-  color: #ffffff; }
+  color: #033063; }
 
 /* Sub Menu */
 .site-nav .sub-menu a {
@@ -66,14 +66,14 @@
   letter-spacing: 0;
   line-height: 1.2em;
   padding: 4px 10px;
-  color: #522d80; }
+  color: #ffffff; }
 
 .site-nav .sub-menu a:hover {
   color: #f66733; }
 
 .site-nav .sub-menu {
-  background: #ffffff;
-  border-color: #522d80;
+  background: #033063;
+  border-color: #033063;
   min-width: 265px;
   z-index: 2147483647; }
 
@@ -122,7 +122,7 @@
     display: none; }
   .site-nav .page-link {
     color: #ffffff;
-    background: #522d80;
+    background: #033063;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -196,8 +196,8 @@
     color: #522d80; }
 
   .site-nav ul.menu a {
-    background: #fff;
-    color: #522d80; }
+    background: #033063;
+    color: #ffffff; }
 
   .site-nav a,
   .site-nav li.current-menu-item > a {
@@ -243,7 +243,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman";
   font-size: 0.95em;
   line-height: 1.5;
   font-weight: 300;
@@ -281,17 +281,19 @@ img {
     opacity: 0; } }
 #cf img {
   position: absolute;
-  right: -400px;
+  top: -50px;
+  right: 0px;
+  left: 10px;
+  bottom: -3000px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out; }
 
 #cf {
-  position: relative;
+  position: absolute;
   height: 300px;
-  width: 300px;
-  margin: 10px 10px; }
+  width: 300px; }
 
 @keyframes cf3FadeInOut {
   0% {
@@ -514,7 +516,7 @@ a.tosu {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  background: #522d80;
+  background: #033063;
   padding: 50px 0;
   align: middle; }
 
@@ -650,7 +652,7 @@ ul.listing li.listing-item time {
   padding-right: 10px; }
 
 ul.listing li.listing-item a {
-  color: #522d80;
+  color: #033063;
   font-weight: 400;
   font-family: 'Titillium Web', sans-serif; }
 
@@ -796,7 +798,7 @@ ul.listing li.listing-item a {
 .wp-caption {
   background-color: #f3f3f3;
   text-align: center;
-  border: 1px dotted #522d80;
+  border: 1px dotted #033063;
   font-size: 0.90em;
   overflow: hidden;
   position: relative; }

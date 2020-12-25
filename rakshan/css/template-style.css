@@ -42,7 +42,7 @@
 .arya:hover .img-info{
     opacity: 1;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 10%;
     padding: 2rem;
     vertical-align: center;
 }
@@ -124,6 +124,8 @@
     /*margin-left: -180px;*/
     padding-right: 6.25rem;
   }
+
+  
 
   
 }
